@@ -3,6 +3,17 @@ import java.util.Random;
 
 public class Caixa {
     
+    public Conta(){
+
+this.codigo = r.nextInt(9999);
+System.out.println("Digite seu Nome: ");
+this.nome = s.nextLine();
+System.out.println("Digite o saldo Inicial: ");
+this.saldo = s.nextDouble();
+System.out.println();
+
+
+}
     
     public static void main(String[] args){
         // Declarando as variáveis, Scanner e Random
